@@ -1,0 +1,11 @@
+{
+  "name": "katas",
+  "version": "1.0.0",
+  "description": "katas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amartinm7@gmail.com",
+  "license": "ISC"
+}
