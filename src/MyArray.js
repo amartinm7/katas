@@ -1,4 +1,6 @@
-/**
+'use strict'
+
+  /**
  * Kata to test the typical function methods in a collection
  */
 class MyArray extends Array {
@@ -90,7 +92,10 @@ class MyArray extends Array {
     return false
   }
 }
-// run the functions
+
+module.exports = MyArray
+
+/* run the functions
 const values = [1, 2, 3, 4, 5, 6]
 const myArray = new MyArray()
 myArray.push(...values)
@@ -138,3 +143,4 @@ const result2 = myArray.myMap((value) => [value, value * 3])
     return value / 1 === 1
   })
 console.log(result2)
+*/
