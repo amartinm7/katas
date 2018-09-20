@@ -11,20 +11,20 @@ describe('testing myArray class',function(){
       done()
     })
     //given
+    let counter = 0
     const myArray = new MyArray()
     myArray.push(...values)
     console.log(`${JSON.stringify(myArray)}`)
     console.log(`${JSON.stringify(myArray.length)}`)
     //when
-    let counter = 0
     myArray.myEach((value) => {
       console.log(`... ${value}`)
       counter++
     })
     //then
-    assert(counter,6,'myEach function is not working well')
+    assert.equal(counter,6,'myEach function is not working well')
   })
-  it('should ', function () {
+  it('myFilter function ', function () {
     beforeEach(function(done){
       done()
     })
@@ -32,67 +32,99 @@ describe('testing myArray class',function(){
       done()
     })
     //given
+    let counter = 0
     const myArray = new MyArray()
     myArray.push(...values)
     console.log(`${JSON.stringify(myArray)}`)
     console.log(`${JSON.stringify(myArray.length)}`)
     //when
-    let counter = 0
-    myArray.myEach((value) => {
-      console.log(`... ${value}`)
-      counter++
-    })
+    myArray.myMap((value) => value * 3).myFilter((value) => value % 2 === 0).myEach((value) => {console.log(`... ${value}`); counter = counter + value})
     //then
-    assert(counter,6,'myEach function is not working well')
+    console.log(`${counter}`)
+    assert.equal(counter,36,'myFilter function is not working well')
   })
-
+  it('myReduce function: reduce [[1,3],[2,6],[3,9],[4,12],[5,15],[6,18]] to the concat array 1,1,1,3,2,6,3,9,4,12,5,15', function () {
+    beforeEach(function(done){
+      done()
+    })
+    afterEach(function(done){
+      done()
+    })
+    //given
+    let counter = 0
+    const myArray = new MyArray()
+    myArray.push(...values)
+    console.log(`${JSON.stringify(myArray)}`)
+    console.log(`${JSON.stringify(myArray.length)}`)
+    console.log()
+    //when
+    myArray.myMap((value) => [value, value * 3])
+      .myReduce((temp, value, i) => {
+        console.log(`callback ${i}`)
+        console.log(`the array ${temp}, the value ${value}`)
+        const tempp = temp.concat(value)
+        console.log(`the concat array ${temp}`)
+        return tempp
+      }, [1, 1])
+      .myEach((value) => {console.log(`myEach... ${value}`); counter = counter + value})    //then
+    assert.equal(counter,86,'myReduce function is not working well')
+  })
+  it('myEvery function', function () {
+    beforeEach(function(done){
+      done()
+    })
+    afterEach(function(done){
+      done()
+    })
+    //given
+    let counter = 0
+    const myArray = new MyArray()
+    myArray.push(...values)
+    console.log(`${JSON.stringify(myArray)}`)
+    console.log(`${JSON.stringify(myArray.length)}`)
+    console.log()
+    //when
+    const result = myArray.myMap((value) => [value, value * 3])
+      .myReduce((temp, value, i) => {
+        console.log(`callback ${i}`)
+        console.log(`the array ${temp}, the value ${value}`)
+        const concatedTemp = temp.concat(value)
+        console.log(`the concat array ${temp}`)
+        return concatedTemp
+      }, [1, 1])
+      .myEvery((value) => {
+        return value / 1 === value
+      })
+    //then
+    assert.isTrue(result, 'myEvery function is not working well')
+  })
+  it('mySome function', function () {
+    beforeEach(function(done){
+      done()
+    })
+    afterEach(function(done){
+      done()
+    })
+    //given
+    let counter = 0
+    const myArray = new MyArray()
+    myArray.push(...values)
+    console.log(`${JSON.stringify(myArray)}`)
+    console.log(`${JSON.stringify(myArray.length)}`)
+    console.log()
+    //when
+    const result = myArray.myMap((value) => [value, value * 3])
+      .myReduce((temp, value, i) => {
+        console.log(`callback ${i}`)
+        console.log(`the array ${temp}, the value ${value}`)
+        const concatedTemp = temp.concat(value)
+        console.log(`the concat array ${temp}`)
+        return concatedTemp
+      }, [1, 1])
+      .mySome((value) => {
+        return value / 2 === 1
+      })
+    //then
+    assert.isTrue(result, 'mySome function is not working well')
+  })
 })
-/*
-const values = [1, 2, 3, 4, 5, 6]
-const myArray = new MyArray()
-myArray.push(...values)
-console.log(`${JSON.stringify(myArray)}`)
-console.log(`${JSON.stringify(myArray.length)}`)
-
-myArray.myEach((value) => console.log(`... ${value}`))
-
-myArray.myMap((value) => value * 3).myEach((value) => console.log(`... ${value}`))
-
-myArray.myMap((value) => value * 3).myFilter((value) => value % 2 === 0).myEach((value) => console.log(`... ${value}`))
-
-myArray.myMap((value) => [value, value * 3])
-  .myReduce((temp, value, i) => {
-    console.log(`callback ${i}`)
-    console.log(`the array ${temp}, the value ${value}`)
-    const tempp = temp.concat(value)
-    console.log(`the concat array ${temp}`)
-    return tempp
-  }, [1, 1])
-  .myEach((value) => console.log(`myEach... ${value}`))
-
-const result = myArray.myMap((value) => [value, value * 3])
-  .myReduce((temp, value, i) => {
-    console.log(`callback ${i}`)
-    console.log(`the array ${temp}, the value ${value}`)
-    const concatedTemp = temp.concat(value)
-    console.log(`the concat array ${temp}`)
-    return concatedTemp
-  }, [1, 1])
-  .myEvery((value) => {
-    return value / 1 === value
-  })
-console.log(result)
-
-const result2 = myArray.myMap((value) => [value, value * 3])
-  .myReduce((temp, value, i) => {
-    console.log(`callback ${i}`)
-    console.log(`the array ${temp}, the value ${value}`)
-    const concatedTemp = temp.concat(value)
-    console.log(`the concat array ${temp}`)
-    return concatedTemp
-  }, [1, 1])
-  .mySome((value) => {
-    return value / 1 === 1
-  })
-console.log(result2)
-*/
