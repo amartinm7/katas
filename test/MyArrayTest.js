@@ -66,7 +66,8 @@ describe('testing myArray class',function(){
         console.log(`the concat array ${temp}`)
         return tempp
       }, [1, 1])
-      .myEach((value) => {console.log(`myEach... ${value}`); counter = counter + value})    //then
+      .myEach((value) => {console.log(`myEach... ${value}`); counter = counter + value})
+    //then
     assert.equal(counter,86,'myReduce function is not working well')
   })
   it('myEvery function', function () {
