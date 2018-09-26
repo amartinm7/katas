@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create dynamic content</title>
+</head>
+<body>
+  <h1>This is a Heading</h1>
+  <p id="demo">This is a paragraph.</p>
+  <div id="myDiv"></div>
+</body>
+</html>
+
+<script>
+  {
+    // add an style to the DOM tree dynamically
+    document.getElementById("demo").innerHTML = "Hello World!";
+    const styleTag = document.createElement('style')
+    styleTag.setAttribute('rel', 'stylesheet')
+    styleTag.setAttribute('href', 'https://www.w3schools.com/w3css/4/w3.css')
+    document.head.appendChild(styleTag)
+  }
+</script>
+<script>
+  // add an paragraph to the DOM tree dynamically
+  {
+    const myDiv = document.getElementById('myDiv')
+    const textNode = document.createTextNode('adding an paragraph to the DOM tree dynamically')
+    const pTag = document.createElement('p')
+    pTag.appendChild(textNode)
+    myDiv.appendChild(pTag)
+  }
+</script>

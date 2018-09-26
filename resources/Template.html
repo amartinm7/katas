@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Template eXample</title>
+</head>
+<body>
+  <template id="xtemplate">
+    <style>
+      h1 {color:red;}
+      p {color:blue;}
+    </style>
+    <p>this is an injected paragraph</p>
+  </template>
+  <h1>This is a Heading originally in black, now in red when the styles are loaded dynamically</h1>
+  <div id="myDiv"></div>
+  </body>
+</html>
+<script>
+  {
+    // add an style to the DOM tree dynamically
+    const xtemplateTag = document.getElementById('xtemplate')
+    const styleTag = xtemplateTag.content.querySelector('style')
+    const style = styleTag.cloneNode(true)
+    document.head.appendChild(style)
+  }
+  {
+    // add an paragraph to the DOM tree dynamically
+    const xtemplateTag = document.getElementById('xtemplate')
+    const pTag = xtemplateTag.content.querySelector('p')
+    const p = pTag.cloneNode(true)
+    document.getElementById('myDiv').appendChild(p)
+  }
+</script>
+
+
+
