@@ -4,11 +4,15 @@
   "description": "katas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "amartinm7@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^5.2.0"
   }
