@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11ee03ae-5005-4d09-aac9-907b300e85c7" name="Default Changelist" comment="kata for pets">
-      <change afterPath="$PROJECT_DIR$/_media/functional-javascript-es6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PetHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/PetHandlerTest.js" beforeDir="false" />
-    </list>
+    <list default="true" id="11ee03ae-5005-4d09-aac9-907b300e85c7" name="Default Changelist" comment="kata for pets" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -40,7 +33,7 @@
         <counts>
           <entry key="Codility" value="1" />
           <entry key="editorconfig" value="2" />
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="3" />
           <entry key="html" value="2" />
           <entry key="js" value="17" />
           <entry key="json" value="7" />
@@ -53,7 +46,7 @@
           <entry key="JSON" value="7" />
           <entry key="JavaScript" value="17" />
           <entry key="Markdown" value="5" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -62,7 +55,7 @@
           <entry key="html" value="825" />
           <entry key="js" value="4021" />
           <entry key="json" value="42" />
-          <entry key="md" value="330" />
+          <entry key="md" value="440" />
           <entry key="txt" value="286" />
         </counts>
       </usages-collector>
@@ -71,7 +64,7 @@
           <entry key="HTML" value="825" />
           <entry key="JSON" value="42" />
           <entry key="JavaScript" value="4021" />
-          <entry key="Markdown" value="330" />
+          <entry key="Markdown" value="440" />
           <entry key="PLAIN_TEXT" value="317" />
         </counts>
       </usages-collector>
@@ -83,10 +76,19 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="34" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="34" />
+              <first_editor relative-caret-position="255">
+                <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -165,6 +167,11 @@
             <path>
               <item name="katas" type="b2602c69:ProjectViewProjectNode" />
               <item name="katas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="_media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="katas" type="b2602c69:ProjectViewProjectNode" />
@@ -313,7 +320,7 @@
       <workItem from="1540121519600" duration="1565000" />
       <workItem from="1540144196908" duration="8092000" />
       <workItem from="1540415823332" duration="116000" />
-      <workItem from="1542236769070" duration="292000" />
+      <workItem from="1542236769070" duration="735000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1537216343375</created>
@@ -428,7 +435,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28939000" />
+    <option name="totallyTimeSpent" value="29382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -561,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -577,11 +577,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/PetHandlerTest.js" />
     <entry file="file://$PROJECT_DIR$/src/PetHandler.js" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="34" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="34" />
+          <first_editor relative-caret-position="255">
+            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           </first_editor>
           <second_editor />
         </state>
