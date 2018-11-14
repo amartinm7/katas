@@ -1,4 +1,4 @@
-![katas](./_media/javaScript-logo)
+![katas](./_media/javaScript-logo.png)
 
 # KATAS
 
@@ -20,4 +20,5 @@ Functional programming is a programming paradigm that treats computation as the 
 ## DOM: load the DOM tree dynamically using JS, injecting components in the dom tree.
 
 ![ninja](./_media/dom-life-cycle.png)
+
 ![ninja](./_media/dom-model.png)
