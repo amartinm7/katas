@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11ee03ae-5005-4d09-aac9-907b300e85c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/MyArrayTest.js" afterDir="false" />
+    <list default="true" id="11ee03ae-5005-4d09-aac9-907b300e85c7" name="Default Changelist" comment="kata for pets">
+      <change afterPath="$PROJECT_DIR$/_media/functional-javascript-es6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArray.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PetHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/PetHandlerTest.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,101 +22,71 @@
     <session id="-157242873">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="editorconfig" value="1" />
-          <entry key="gitignore" value="1" />
-          <entry key="js" value="2" />
-          <entry key="json" value="1" />
-          <entry key="md" value="1" />
+          <entry key="Codility" value="1" />
+          <entry key="editorconfig" value="2" />
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="2" />
+          <entry key="js" value="17" />
+          <entry key="json" value="7" />
+          <entry key="md" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="2" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="HTML" value="2" />
+          <entry key="JSON" value="7" />
+          <entry key="JavaScript" value="17" />
+          <entry key="Markdown" value="5" />
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="404" />
-          <entry key="json" value="25" />
-          <entry key="md" value="127" />
-          <entry key="txt" value="14" />
+          <entry key="gitignore" value="31" />
+          <entry key="html" value="825" />
+          <entry key="js" value="4021" />
+          <entry key="json" value="42" />
+          <entry key="md" value="330" />
+          <entry key="txt" value="286" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="25" />
-          <entry key="JavaScript" value="404" />
-          <entry key="Markdown" value="127" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="HTML" value="825" />
+          <entry key="JSON" value="42" />
+          <entry key="JavaScript" value="4021" />
+          <entry key="Markdown" value="330" />
+          <entry key="PLAIN_TEXT" value="317" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyArray.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1969">
-              <caret line="143" column="4" lean-forward="true" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/MyArrayTest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="12" />
-              <folding>
-                <element signature="e#92#102#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="195">
-                <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="34" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="34" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.editorconfig">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -122,8 +94,14 @@
     </leaf>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>data</find>
+      <find>affenpinscher</find>
+      <find>.jpg</find>
+    </findStrings>
     <replaceStrings>
       <replace />
+      <replace>.jpg',</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -132,11 +110,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/kata-MyArray.js" />
         <option value="$PROJECT_DIR$/src/MyArray.js" />
         <option value="$PROJECT_DIR$/test/MyArrayTest.js" />
+        <option value="$PROJECT_DIR$/src/DinamycContent.html" />
+        <option value="$PROJECT_DIR$/src/Template.html" />
+        <option value="$PROJECT_DIR$/resources/DinamycContent.html" />
+        <option value="$PROJECT_DIR$/gulp.js" />
+        <option value="$PROJECT_DIR$/src/Codility.js" />
+        <option value="$PROJECT_DIR$/test/CodilityTest.js" />
+        <option value="$PROJECT_DIR$/src/HttpsServer.js" />
+        <option value="$PROJECT_DIR$/test/my.json" />
+        <option value="$PROJECT_DIR$/src/DogHandler.js" />
+        <option value="$PROJECT_DIR$/src/PetHandler.js" />
+        <option value="$PROJECT_DIR$/test/PetHandlerTest.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -156,8 +146,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="287" />
+    <option name="y" value="243" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
@@ -197,12 +188,16 @@
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_media" />
+      <recent name="$PROJECT_DIR$/resources]" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -218,8 +213,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha..should ">
-    <configuration name="Unnamed" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Mocha.test/PetHandlerTest.js">
+    <configuration name="PetHandler.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/PetHandler.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="test/PetHandlerTest.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/PetHandlerTest.js</test-file>
+      <method v="2" />
+    </configuration>
+    <configuration name="testing myArray class" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -229,11 +238,11 @@
       <test-kind>SUITE</test-kind>
       <test-file>$PROJECT_DIR$/test/MyArrayTest.js</test-file>
       <test-names>
-        <name value="" />
+        <name value="testing myArray class" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name=".should " type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="testing myArray class.myEvery function: reduce [[1,3],[2,6],[3,9],[4,12],[5,15],[6,18]] to the concat array 1,1,1,3,2,6,3,9,4,12,5,15" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -243,19 +252,40 @@
       <test-kind>TEST</test-kind>
       <test-file>$PROJECT_DIR$/test/MyArrayTest.js</test-file>
       <test-names>
-        <name value="" />
-        <name value="should " />
+        <name value="testing myArray class" />
+        <name value="myEvery function: reduce [[1,3],[2,6],[3,9],[4,12],[5,15],[6,18]] to the concat array 1,1,1,3,2,6,3,9,4,12,5,15" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="testing myArray class.mySome function" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/MyArrayTest.js</test-file>
+      <test-names>
+        <name value="testing myArray class" />
+        <name value="mySome function" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Mocha.Unnamed" />
-      <item itemvalue="Mocha..should " />
+      <item itemvalue="Mocha.testing myArray class" />
+      <item itemvalue="Mocha.testing myArray class.myEvery function: reduce [[1,3],[2,6],[3,9],[4,12],[5,15],[6,18]] to the concat array 1,1,1,3,2,6,3,9,4,12,5,15" />
+      <item itemvalue="Mocha.testing myArray class.mySome function" />
+      <item itemvalue="Node.js.PetHandler.js" />
+      <item itemvalue="Mocha.test/PetHandlerTest.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Mocha..should " />
-        <item itemvalue="Mocha.Unnamed" />
+        <item itemvalue="Mocha.test/PetHandlerTest.js" />
+        <item itemvalue="Node.js.PetHandler.js" />
+        <item itemvalue="Mocha.testing myArray class.mySome function" />
+        <item itemvalue="Mocha.testing myArray class.myEvery function: reduce [[1,3],[2,6],[3,9],[4,12],[5,15],[6,18]] to the concat array 1,1,1,3,2,6,3,9,4,12,5,15" />
+        <item itemvalue="Mocha.testing myArray class" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +300,20 @@
       <option name="presentableId" value="Default" />
       <updated>1537215762991</updated>
       <workItem from="1537215764164" duration="673000" />
-      <workItem from="1537390490213" duration="1960000" />
+      <workItem from="1537390490213" duration="2116000" />
+      <workItem from="1537466116891" duration="1862000" />
+      <workItem from="1537992714565" duration="3814000" />
+      <workItem from="1538308548025" duration="50000" />
+      <workItem from="1538322905880" duration="601000" />
+      <workItem from="1539713577260" duration="7000" />
+      <workItem from="1539713619430" duration="2502000" />
+      <workItem from="1539886077706" duration="5900000" />
+      <workItem from="1540031089334" duration="217000" />
+      <workItem from="1540051061440" duration="1132000" />
+      <workItem from="1540121519600" duration="1565000" />
+      <workItem from="1540144196908" duration="8092000" />
+      <workItem from="1540415823332" duration="116000" />
+      <workItem from="1542236769070" duration="292000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1537216343375</created>
@@ -279,57 +322,133 @@
       <option name="project" value="LOCAL" />
       <updated>1537216343375</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding tests">
+      <created>1537475469179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537475469179</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding tests">
+      <created>1537475555398</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537475555398</updated>
+    </task>
+    <task id="LOCAL-00004" summary="adding examples of how to load a DOM tree dynamically">
+      <created>1537999157609</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537999157609</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding examples of how to load a DOM tree dynamically">
+      <created>1537999215884</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1537999215884</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adding gulp file for compile and reloading resources. Adding a server task to run the examples">
+      <created>1538325374358</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1538325374358</updated>
+    </task>
+    <task id="LOCAL-00007" summary="kata for calling https://dog.ceo/dog-api/ to get pets and filter by name">
+      <created>1540152086230</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540152086230</updated>
+    </task>
+    <task id="LOCAL-00008" summary="kata for pets">
+      <created>1540152131533</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1540152131533</updated>
+    </task>
+    <task id="LOCAL-00009" summary="kata for pets">
+      <created>1540152249912</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1540152249912</updated>
+    </task>
+    <task id="LOCAL-00010" summary="kata for pets">
+      <created>1540152623245</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1540152623245</updated>
+    </task>
+    <task id="LOCAL-00011" summary="                                                    kata for pets">
+      <created>1540152641141</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1540152641141</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2018.09.19 at 23h 25m 59s.xml">
-      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test_PetHandlerTest_js - 2018.10.21 at 21h 41m 51s.xml">
+      <configuration name="test/PetHandlerTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.09.19 at 23h 26m 41s.xml">
-      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test_PetHandlerTest_js - 2018.10.21 at 21h 44m 28s.xml">
+      <configuration name="test/PetHandlerTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.09.19 at 23h 29m 31s.xml">
-      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test_PetHandlerTest_js - 2018.10.21 at 21h 45m 40s.xml">
+      <configuration name="test/PetHandlerTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.09.19 at 23h 30m 05s.xml">
-      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test_PetHandlerTest_js - 2018.10.21 at 21h 45m 49s.xml">
+      <configuration name="test/PetHandlerTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.09.19 at 23h 30m 28s.xml">
-      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test_PetHandlerTest_js - 2018.10.21 at 21h 46m 19s.xml">
+      <configuration name="test/PetHandlerTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.09.19 at 23h 31m 14s.xml">
-      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test_PetHandlerTest_js - 2018.10.21 at 21h 47m 00s.xml">
+      <configuration name="test/PetHandlerTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.09.19 at 23h 31m 35s.xml">
-      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test_PetHandlerTest_js - 2018.10.21 at 21h 49m 24s.xml">
+      <configuration name="test/PetHandlerTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="_should_ - 2018.09.19 at 23h 35m 54s.xml">
-      <configuration name=".should " configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test_PetHandlerTest_js - 2018.10.21 at 21h 52m 18s.xml">
+      <configuration name="test/PetHandlerTest.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_PetHandlerTest_js - 2018.10.21 at 21h 52m 38s.xml">
+      <configuration name="test/PetHandlerTest.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_PetHandlerTest_js - 2018.10.21 at 21h 53m 06s.xml">
+      <configuration name="test/PetHandlerTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2633000" />
+    <option name="totallyTimeSpent" value="28939000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19142176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32930514" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39879155" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32930514" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -343,50 +462,128 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="adding tests" />
+    <MESSAGE value="adding examples of how to load a DOM tree dynamically" />
+    <MESSAGE value="adding gulp file for compile and reloading resources. Adding a server task to run the examples" />
+    <MESSAGE value="kata for calling https://dog.ceo/dog-api/ to get pets and filter by name" />
+    <MESSAGE value="kata for pets" />
+    <MESSAGE value="                                                    kata for pets" />
+    <option name="LAST_COMMIT_MESSAGE" value="                                                    kata for pets" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>expectedDogList[key]</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dog.printDog()</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matchedDogList[key]</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dog.print()</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>response.data.message</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>res</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>JSON.stringify(res)</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>await fetch(this.url)</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/resources/DinamycContent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="225">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
-            <caret line="13" selection-start-line="13" selection-end-line="13" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/gulp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/resources/Template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="60">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyArray.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1969">
-          <caret line="143" column="4" lean-forward="true" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
+        <state relative-caret-position="389">
+          <caret line="143" column="4" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/HttpsServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/my.json" />
     <entry file="file://$PROJECT_DIR$/test/MyArrayTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="12" />
-          <folding>
-            <element signature="e#92#102#0" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/PetHandlerTest.js" />
+    <entry file="file://$PROJECT_DIR$/src/PetHandler.js" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="34" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
