@@ -1,4 +1,4 @@
-![katas](./_media/javaScript-logo.png)
+![katas](./_media/JavaScript-logo.png)
 
 # KATAS
 
@@ -9,7 +9,7 @@ Single project to the aim to practice some programming exercises.
 
 ## functional programming
 
-![katas](./_media/functional-javascript-es6)
+![katas](./_media/functional-javascript-es6.png)
 
 Functional Programming in JavaScript
 Functional programming is a programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
