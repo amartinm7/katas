@@ -1,4 +1,4 @@
-![JS](./_media/JavaScript-logo.png)
+![JS](./_media/plainJS.png)
 
 # KATAS
 
