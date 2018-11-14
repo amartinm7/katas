@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11ee03ae-5005-4d09-aac9-907b300e85c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_media/logo_640.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,17 +36,17 @@
           <entry key="Codility" value="1" />
           <entry key="editorconfig" value="2" />
           <entry key="gitignore" value="3" />
-          <entry key="html" value="2" />
-          <entry key="js" value="17" />
+          <entry key="html" value="3" />
+          <entry key="js" value="18" />
           <entry key="json" value="7" />
           <entry key="md" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="3" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="17" />
+          <entry key="JavaScript" value="18" />
           <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
@@ -57,7 +57,7 @@
           <entry key="html" value="825" />
           <entry key="js" value="4021" />
           <entry key="json" value="42" />
-          <entry key="md" value="490" />
+          <entry key="md" value="717" />
           <entry key="txt" value="306" />
         </counts>
       </usages-collector>
@@ -66,7 +66,7 @@
           <entry key="HTML" value="825" />
           <entry key="JSON" value="42" />
           <entry key="JavaScript" value="4021" />
-          <entry key="Markdown" value="490" />
+          <entry key="Markdown" value="717" />
           <entry key="PLAIN_TEXT" value="337" />
         </counts>
       </usages-collector>
@@ -74,14 +74,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <first_editor relative-caret-position="260">
+                <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/DinamycContent.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="26" column="93" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/MyArrayTest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-544">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -174,6 +192,11 @@
               <item name="katas" type="b2602c69:ProjectViewProjectNode" />
               <item name="katas" type="462c0819:PsiDirectoryNode" />
               <item name="_media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="katas" type="b2602c69:ProjectViewProjectNode" />
@@ -322,7 +345,7 @@
       <workItem from="1540121519600" duration="1565000" />
       <workItem from="1540144196908" duration="8092000" />
       <workItem from="1540415823332" duration="116000" />
-      <workItem from="1542236769070" duration="1013000" />
+      <workItem from="1542236769070" duration="1385000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1537216343375</created>
@@ -451,10 +474,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29660000" />
+    <option name="totallyTimeSpent" value="30032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19142176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -538,13 +562,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/DinamycContent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -577,13 +594,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/my.json" />
-    <entry file="file://$PROJECT_DIR$/test/MyArrayTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -600,13 +610,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/MyArrayTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <first_editor relative-caret-position="260">
+            <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/DinamycContent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="26" column="93" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="93" />
         </state>
       </provider>
     </entry>
